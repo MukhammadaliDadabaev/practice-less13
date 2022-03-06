@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: sans-serif;
+}
+body {
+    background-color: darkcyan;
+    color: antiquewhite;
+    padding: 1.5rem;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    margin: 1rem;
+}
+img {
+    width: 350px;
+    height: 400px;
+    border-radius: 7px;
+}
+.cards {
+    width: 95%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+p {
+    text-align: center;
+    padding: 0.7rem;
+}
